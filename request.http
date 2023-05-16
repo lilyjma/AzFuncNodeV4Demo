@@ -1,0 +1,12 @@
+###
+POST https://v4programmingmodeldemo.azurewebsites.net/api/backups/release.json
+
+{
+    "release": "Public preview",
+    "name": "Azure Functions: v4 programming model for Node.js"
+}
+
+###
+POST https://v4programmingmodeldemo.azurewebsites.net/api/orchestrators/backupSiteContent
+
+files
